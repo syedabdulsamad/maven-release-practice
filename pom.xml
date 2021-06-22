@@ -22,6 +22,25 @@
         <developerConnection>scm:git:https://github.com/syedabdulsamad/maven-release-practice.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
+
+    <repositories>
+        <repository>
+            <id>maven-group</id>
+            <url>http://localhost:8081/repository/maven-group/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
