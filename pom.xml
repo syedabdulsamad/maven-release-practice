@@ -128,7 +128,7 @@
                         <version>1.6.8</version>
                         <executions>
                             <execution>
-                                <id>deploy</id>
+                                <id>default-deploy</id>
                                 <phase>deploy</phase>
                                 <goals>
                                     <goal>deploy</goal>
@@ -137,7 +137,7 @@
                         </executions>
                         <configuration>
                             <serveId>nexus-releases</serveId>
-                            <nexusUrl>http://localhost:8081/repository/maven-snapshots/</nexusUrl>
+                            <nexusUrl>http://localhost:8081/repository/maven-releases/</nexusUrl>
                             <skipStaging>true</skipStaging>
                         </configuration>
                     </plugin>
