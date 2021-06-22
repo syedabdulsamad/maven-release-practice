@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.abdulsamadsyed</groupId>
     <artifactId>maven-release-practice</artifactId>
-    <version>0.0.4-SNAPSHOT</version>
+    <version>0.0.4</version>
     <name>maven-release-practice</name>
     <description>Demo project for Spring Boot</description>
     <properties>
@@ -20,7 +20,7 @@
     <scm>
         <connection>scm:git:https://github.com/syedabdulsamad/maven-release-practice.git</connection>
         <developerConnection>scm:git:https://github.com/syedabdulsamad/maven-release-practice.git</developerConnection>
-        <tag>maven-release-practice-0.0.2</tag>
+        <tag>v0.0.4</tag>
     </scm>
 
     <repositories>
