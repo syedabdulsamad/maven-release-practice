@@ -136,7 +136,7 @@
                             </execution>
                         </executions>
                         <configuration>
-                            <serveId>nexus-releases</serveId>
+                            <serverId>nexus-releases</serverId>
                             <nexusUrl>http://localhost:8081/repository/maven-releases/</nexusUrl>
                             <skipStaging>true</skipStaging>
                         </configuration>
